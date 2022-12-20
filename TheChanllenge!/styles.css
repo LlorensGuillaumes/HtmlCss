@@ -1,0 +1,176 @@
+@import "./reset.css";
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+.root {
+  height: 100%;
+  margin: 0;
+}
+
+.header {
+  padding: 18px;
+  background-color: #521554;
+}
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+.header-nav__logo {
+  display: inline-flex;
+}
+.header-nav__logo img {
+  display: flex;
+  width: 40%;
+}
+.header-nav__menu {
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80px;
+  justify-content: space-between;
+}
+.header__signup {
+  display: flex;
+  flex-direction: column;
+}
+.header__signup a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+.header__signup a butoon {
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+}
+.header__image {
+  background-image: url(https://picsum.photos/200/300);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+}
+
+.buttonMail {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonGoogle {
+  height: 40px;
+  background-color: #40c4c8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.GoogleIcon {
+  display: flex;
+  width: 35px;
+  order: -1;
+}
+
+.iconMenu {
+  background-color: rgb(16, 15, 15);
+  width: 80%;
+  height: 7px;
+}
+
+.trust {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  background-color: #f4ede3;
+}
+.trust__companies {
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+}
+.trust__companies div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.trust__companies div img {
+  width: 70px;
+  display: flex;
+}
+.trust .logoNewYork {
+  width: 150px;
+}
+.trust__feature:nth-child(odd) {
+  text-align: right;
+}
+.trust-feature__details {
+  padding: 18px;
+}
+
+.testimonials {
+  background-color: #ffffff;
+}
+.testimonials h2 {
+  padding: 18px;
+}
+.testimonials p {
+  padding: 0px 18px 18px;
+}
+.testimonials__cta {
+  padding: 0px 18px 18px;
+  display: flex;
+  flex-direction: column;
+}
+.testimonials__stadistics {
+  text-align: center;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.testimonials__stadistics .stadistics__block {
+  max-width: 200px;
+  margin: 0 auto;
+}
+.testimonials__caption {
+  padding: 18px 12px;
+}
+
+.features {
+  background-color: #f4ede3;
+}
+.features .carrusel {
+  text-align: center;
+}
+.features .carrusel__slider {
+  height: 80px;
+}
+.features .carrusel__slider-dot::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #c8c2ba;
+}
+.features .carrusel__slider-dot.selected::before {
+  background-color: #521554;
+}
+
+.cta {
+  height: 200px;
+  background-color: #521554;
+}
+
+.footer {
+  height: 200px;
+  background-color: #ffffff;
+}/*# sourceMappingURL=styles.css.map */

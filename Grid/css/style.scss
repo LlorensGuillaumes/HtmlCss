@@ -1,0 +1,38 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.content {
+    display: grid;
+    grid-template-rows: 200px 100px 1fr 150px;
+    // Hemos creado 4 filas con diferentes tamaños
+    grid-template-areas: 
+    "header header header header"
+    "nav nav nav aside"
+    "main main hola hola"
+    "footer footer footer footer";
+}
+header{
+    grid-area: header;
+    background-color: blue;
+}
+nav{
+    grid-area: nav;
+    background-color: red;
+}
+
+aside{
+    grid-area: aside;
+    background-color: yellow;
+}
+main{
+    grid-area: main;
+    background-color: aqua;
+}
+footer{
+    grid-area: footer;
+    background-color: black;
+
+}

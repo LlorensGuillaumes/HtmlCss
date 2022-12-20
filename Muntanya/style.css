@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+    
+body{
+    background-image: url("imagenes/FondoPrimeraPagina.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+       
+
+}
+.pirineo_images{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 100px;
+}
+
+img{
+    width: 500px;
+}
+
+.titulos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.subtitle{
+    font-size: 40px;
+}

@@ -1,0 +1,33 @@
+body{
+    background-image: url("imagenes/FondoPrimeraPagina.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 110vh; */
+}
+
+.formatImages{
+    width: 150vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.mountains{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 300px;
+    margin: 5px;
+
+}
+
+
+.formatText{
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+}

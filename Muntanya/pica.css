@@ -1,0 +1,45 @@
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: stretch;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+img {
+  width: 70px;
+}
+.centralImage {
+  width: 500px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+h1 {
+  text-align: center;
+}
+.formImage {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.description {
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: justify;
+  margin-top: 50px;
+}
+.meteo {
+  margin-top: 20px;
+}
+.aludes {
+  margin-top: 20px;
+}
+footer {
+  display: flex;
+  justify-content: space-evenly;
+}

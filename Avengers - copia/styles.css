@@ -1,0 +1,92 @@
+/* GENERAL STYLES */
+* {
+  margin: 0px;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.navbar {
+  background-color: black;
+}
+
+.navbar__link {
+  color: white;
+}
+.navbar__menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+img {
+  display: flex;
+  width: 40px;
+  padding: 15px;
+}
+.hero__intro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+h1{
+  font-size: 36px;
+  font-family: Arial;
+  margin-top: 30px;
+}
+.hero__caption {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font: arial;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+strong {
+  color: red;
+}
+
+.characters {
+  display: flex;
+  justify-content: space-around;
+}
+.characters__title {
+  color: white;
+  background-color: black;
+}
+
+a {
+  display: flex;
+  color: red;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+strong {
+  color: red;
+}
+p {
+  color: white;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+.hero {
+  display: block;
+  justify-content: center;
+}
+
+.characteres__caption{
+  color: black;
+}
+
+/* .hero__container{
+  display: inline-block;
+  align-items: center;
+
+} */

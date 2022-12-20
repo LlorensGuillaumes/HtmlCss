@@ -1,0 +1,200 @@
+@import "./reset.css";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+.root {
+  height: 100%;
+  margin: 0;
+}
+
+.header {
+  padding: 18px;
+  background-color: #521554;
+
+  &-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+
+    &__logo {
+      display: inline-flex;
+    }
+
+    &__logo img {
+      display: flex;
+      width: 40%;
+    }
+
+    &__menu {
+      height: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 80px;
+      justify-content: space-between;
+    }
+  }
+
+  &__signup {
+    display: flex;
+    flex-direction: column;
+  }
+  &__signup a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+  }
+  &__signup a butoon{
+    display: flex;
+    flex-direction: column;
+  
+    height: 50px;
+  }
+  &__image {
+    background-image: url(https://picsum.photos/200/300);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+  }
+}
+.buttonMail{
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.buttonGoogle{
+  height: 40px;
+  background-color: #40c4c8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.GoogleIcon{
+  display: flex;
+  width: 35px;
+  order: -1;
+  
+}
+.iconMenu {
+  background-color: rgb(16, 15, 15);
+  width: 80%;
+  height: 7px;
+}
+
+
+.trust {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  background-color: #f4ede3;
+
+  &__companies {
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__companies div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  &__companies div img{
+    width: 70px;
+    display: flex;
+  }
+
+  .logoNewYork{
+    width: 150px;
+  }
+
+  &__feature:nth-child(odd) {
+    text-align: right;
+  }
+
+  &-feature__details {
+    padding: 18px;
+  }
+}
+
+.testimonials {
+  background-color: #ffffff;
+
+  h2 {
+    padding: 18px;
+  }
+
+  p {
+    padding: 0px 18px 18px;
+  }
+
+  &__cta {
+    padding: 0px 18px 18px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__stadistics {
+    text-align: center;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    .stadistics {
+      &__block {
+        max-width: 200px;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  &__caption {
+    padding: 18px 12px;
+  }
+}
+
+.features {
+  background-color: #f4ede3;
+
+  .carrusel {
+    text-align: center;
+
+    &__slider {
+      height: 80px;
+    }
+
+    &__slider-dot::before {
+      content: "";
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: #c8c2ba;
+    }
+
+    &__slider-dot.selected::before {
+      background-color: #521554;
+    }
+  }
+}
+
+.cta {
+  height: 200px;
+  background-color: #521554;
+}
+
+.footer {
+  height: 200px;
+  background-color: #ffffff;
+}

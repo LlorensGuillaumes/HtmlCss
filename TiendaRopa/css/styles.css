@@ -1,0 +1,130 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  width: 100%;
+}
+.headerLeft {
+  display: flex;
+  width: 25%;
+}
+.headLeftDd {
+  display: flex;
+}
+.headLeftDdUl {
+  display: flex;
+}
+.headLeftDdUl li{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.headerCenter {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.headerCenter h1{
+    text-align: center;
+}
+.headCenterList{
+    display: flex;
+    justify-content: center;
+}
+.headCenterList nav{
+display: flex;    
+}
+.headCenterList nav ul{
+    display: flex;
+}
+.headCenterList nav ul li{
+    margin-right: 20px;
+}
+.headRightFind{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.headRightFind img {
+  width: 20px;
+}
+.headRightFind input img{
+    display: flex;
+}
+.headRightBot{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.headRightBot ul{
+    display: flex;
+    justify-content: flex flex-end;
+}
+.headRightBot ul li{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15px;
+}
+.headerRightTop{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    width: 25%;
+    margin-right: 20px;
+}
+.sectionImage{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.imageBody{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+}
+.imageBody img{
+    width: 85%;
+    height: 200px;
+    object-fit: contain;
+    margin-left: 8%;
+}
+.imageGroup{
+    width: 85%;
+    display: flex;
+    justify-items: center;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h5{
+    text-align: center;
+}
+.contact{
+    margin-top: 50px;
+    text-align: center;
+}
+footer{
+    display: flex;
+}
+.columnGroup{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+.columnGroup ul{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.columnGroup ul h6{
+    margin-bottom: 10px;
+}
